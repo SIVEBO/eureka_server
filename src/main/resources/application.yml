@@ -10,4 +10,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
   instance:
-    hostname: ${EUREKA_HOSTNAME:eureka_server}
+    hostname: ${EUREKA_HOSTNAME:eureka-server}
